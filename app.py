@@ -153,7 +153,7 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Сотрудники организации")
-        self.setWindowIcon(QIcon("icon.png"))
+        self.setWindowIcon(QIcon("logo.png"))
         self.resize(1100, 600)
 
         layout = QVBoxLayout()
